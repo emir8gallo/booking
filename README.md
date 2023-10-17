@@ -24,6 +24,7 @@ Potential improvements:
 - Add logging
 - Specific case when property is booked by guest and owner blocks those specific dates is not covered (not mentioned in task description)
   - potential solution in this case -> cancel the booking and add block, potentialy inform user (if there was an email or something similar)
+- Handle different timezones
 
 
 Additional resource:
