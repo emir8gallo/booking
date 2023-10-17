@@ -2,7 +2,7 @@
 
 A booking is when a guest selects a start and end date and submits a reservation on a property.
 
-A block IS when the propertv owner or manager selects a range or days during which no guest can make
+A block is when the propertv owner or manager selects a range or days during which no guest can make
 a booking e.g. the owner wants to use the property for themselves, or the property manager needs to schedule the repainting of a few rooms).
 
 Provided following functionalities:
@@ -20,6 +20,7 @@ H2 in memory DB used.
 Potential improvements:
 - Adding authentication and authorization
 - Improve error handling (generic error handler)
+- Add integration tests
 - Add logging
 - Specific case when property is booked by guest and owner blocks those specific dates is not covered (not mentioned in task description)
   - potential solution in this case -> cancel the booking and add block, potentialy inform user (if there was an email or something similar)
